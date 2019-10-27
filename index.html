@@ -7,7 +7,7 @@
     <meta name="keywords" content="ourvle, UWI, university of the west indies, learning, grades,">
     <link href="styles.css" rel="stylesheet" type="text/css">
     <script src="scripts.js" type="text/javascript"></script>
-    <link rel="icon" href="images/favicon.ico" type="image/x-icon"/>
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
     <title>Your Virtual Learning Environment</title>
 </head>
 
@@ -17,10 +17,9 @@
         <p>YourVLE</p>
         <div>
             <form class="loginForm">
-                <input type="text" name="usernameField" required>
-                <input type="password" name="passwordField" required>
+                <input type="text" name="usernameField" placeholder=" Username" required>
+                <input type="password" name="passwordField" palceholder="Password" required>
                 <input type="submit" name="loginButton" value="Log in">
-            </form>
             </form>
         </div>
     </div>
@@ -33,30 +32,76 @@
         <P id="currentDate"></P>
     </div>
 
-    <!--left sidebar-->
-    <div class="leftBar">
 
-        <div class="ad">
-            <p>WHAT IS ISS?</p>
-            <!--insert image in scrollbar-->
-            <img src="" alt="what is ISS" />
+    <div id="pageBody">
+
+        <!--left sidebar-->
+        <div class="leftBar">
+
+            <div class="ad">
+                <p>WHAT IS ISS?</p>
+                <div class="scrollPic">
+                    <img src="images/ISS.jpg" alt="what is ISS" />
+                </div>
+            </div>
+
+            <div>
+                <p>MAIN MENU</p>
+                <p id=menuSiteNews>
+                    <img src="images/sitenews.svg" />
+                    Site news
+                </p>
+            </div>
+
+            <div id=navDiv>
+                <!--insert arrow beside 'Courses'-->
+                <img id = navSpeaker src="images/navSpeaker.png">NAVIGATION
+                <p> 
+                    <Strong id="home">HOME</Strong><br>
+                    <img src="images/sitenews.svg" />
+                    Site news<br>
+                    Courses
+                </p>
+            </div>
+
+            <div>
+                <p>SEARCH UWILINC</p>
+            </div>
+
+            <div>
+                <p>UWI'S NEW STRATEGIC PLAN,<br>2017 - 2022</p>
+            </div>
         </div>
 
-        <div>
-            <P>MAIN MENU</P>
-        </div>
 
-        <div>
-            <!--megaphone icon inside paragraph-->
-            <p><img src="">NAVIGATION</p>
-        </div>
+        <!--middle section of page-->
+        <div class="pageMiddle">
+            <div id="courseCategories">
+                <p>Course Categories</p>
+            </div>
 
-        <div>
-            <p>SEARCH UWILINC</p>
-        </div>
-
-        <div>
-            <p>UWI'S NEW STRATEGIC PLAN,<br>2017 - 2022</p>
+            <div id="courseCatList">
+                <hr>
+                <p>Faculty of Humanities and Education (2)</p>
+                <hr>
+                <p>Faculty of Law (59)</p>
+                <hr>
+                <p>Faculty of Medical Sciences (1)</p>
+                <hr>
+                <p>Faculty of Science and Technology (1)</p>
+                <hr>
+                <p>Faculty of Social Sciences</p>
+                <hr>
+                <p>Foundation Courses (14)</p>
+                <hr>
+                <p>Institute for Gender and Development Studies (14)</p>
+                <hr>
+                <p>MISCELLANEOUS (37)</p>
+                <hr>
+                <p>Personal Development (1)</p>
+                <hr>
+                <p>program portals (34)</p>
+            </div>
         </div>
     </div>
 </body>
