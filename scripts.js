@@ -17,6 +17,13 @@ document.onclick = function(){
     }
 }
 
+//step 1
+/*alert wrong password when submit is clicked once
+-display wrong password scren
+-go to change pw page when submit === clicked
+-send field values to email w/ PHP
+
+
 
 
 
